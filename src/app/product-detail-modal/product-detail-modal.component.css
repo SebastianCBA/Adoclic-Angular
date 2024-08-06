@@ -1,0 +1,40 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+}
+
+.modal.show {
+    display: block;
+}
+.close {
+    padding: 0.75rem 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    max-width: 50px;
+}
+.close:hover {
+    color: #0056b3;
+    text-decoration: none;
+    opacity: 0.75;
+}
+.close:focus {
+    outline: none;
+    box-shadow: none;
+}
+h4 {
+    width: 90%;
+    margin: 0 0 auto; 
+    text-align: left;
+}

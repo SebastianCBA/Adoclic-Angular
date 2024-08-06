@@ -1,0 +1,59 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .mat-mdc-button:not(:disabled) {
+    color: white;
+}
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .title {
+    width: 80%;
+    margin: 0 0 auto; 
+    text-align: left;
+}
+
+  .logout-button {
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 8px 16px; 
+    max-width: 120px;
+    height: 36px; 
+    text-transform: none;
+  }
+  
+  .logout-button .mat-mdc-button-label {
+    font-size: 14px; 
+  }
+  
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters mat-form-field {
+    width: 45%;
+  }
+  
+  .mat-elevation-z8 {
+    overflow: auto;
+    max-height: 400px;
+  }
+  
+  .btn-primary {
+    font-size: 12px; 
+    padding: 5px 10px;
+    border-radius: 5px;
+}
